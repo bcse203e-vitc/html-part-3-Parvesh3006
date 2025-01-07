@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flight Schedule</title>
+</head>
+<body>
+    <h1>Flight Schedule</h1>
+    <table border="7">
+        <thead>
+            <tr>
+                <th>Flight Number</th>
+                <th>Destination</th>
+                <th>Departure Time</th>
+                <th>Arrival Time</th>
+                <th>Duration</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="on-time">
+                <td>AB123</td>
+                <td style="background-color:gray;">India</td>
+                <td>10:00 AM</td>
+                <td>12:30 PM</td>
+                <td><abbr title="2 hours 30 minutes">2h 30m</abbr></td>
+                <td>On Time</td>
+            </tr>
+            <tr class="international delayed">
+                <td>XS476</td>
+                <td style="background-color:gray;">Australia</td>
+                <td>2:00 PM</td>
+                <td>4:45 AM (next day)</td>
+                <td><abbr title="8 hours 45 minutes">8h 45m</abbr></td>
+                <td>Delayed</td>
+            </tr>
+            <tr class="cancelled">
+                <td>YD959</td>
+                <td>Chennai</td>
+                <td>5:00 PM</td>
+                <td>7:00 PM</td>
+                <td><abbr title="2 hours">2h</abbr></td>
+                <td>Cancelled</td>
+            </tr>
+            <tr class="international on-time">
+                <td>DV287</td>
+                <td>Sydney</td>
+                <td>11:30 AM</td>
+                <td>9:30 PM</td>
+                <td><abbr title="8 hours">8h</abbr></td>
+                <td>On Time</td>
+            </tr>
+            <tr class="on-time">
+                <td>SW361</td>
+                <td style="background-color:gray;">New Zealand</td>
+                <td>3:00 PM</td>
+                <td>8:00 PM</td>
+                <td><abbr title="5 hours">5h</abbr></td>
+                <td>On Time</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
